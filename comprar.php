@@ -61,7 +61,7 @@
                     </form>
               </div>
    <!--********************contenedor****************************************-->
-              <footer id="footer">pie de pagina</footer>
+              <footer id="footer">@HMAVG 2019</footer>
          </div>
      </body>
 </html>

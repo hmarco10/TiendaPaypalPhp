@@ -1,4 +1,5 @@
-
+body{}
+      
       .cabez{
       height: 40px;
       position: fixed;
@@ -32,6 +33,10 @@
       height: 55px;
       margin:0 auto;
       width:960px;
+      }
+
+      h1{
+            text-align: center;
       }
 
 
@@ -131,13 +136,18 @@
 
       }
 
+      #imagen{
+            width: 300px;
+            display: inline;
+      }
+
 
       .fotos a{
 
       text-decoration:none;
       display: inline-block;
       margin-bottom: 10px;
-      margin-right: 40%;
+      margin-right: 28%;
 
       }
 
@@ -214,7 +224,7 @@
       .btn {
       cursor: pointer;
       display: inline-block;
-      background-color: #e6e6e6;
+      background-color: #57a957;
       background-repeat: no-repeat;
       background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), color-stop(25%, #ffffff), to(#e6e6e6));
       background-image: -webkit-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);

@@ -12,8 +12,8 @@ class Trabajo
                  $this->datos=array();
                  $host="localhost";
                  $db="carrito02";
-                 $username="user";
-                 $password="password";
+                 $username="root";
+                 $password="";
                  $dsn="mysql:host=$host;dbname=$db";
 
                  try{

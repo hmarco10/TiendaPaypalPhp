@@ -32,9 +32,10 @@
                     <div id="contenedor">
                           <br>
                           <?php foreach ($productos as $pro):?>
+                          <h1><?php echo $pro["producto"]; ?></h1>
                                 <div id="foto_detalle">
                                    <img src="fotos/<?php echo $pro["name"]."big.jpg"; ?>">
-                                </div>
+                                </div><br>
                                 <div id="detalles">
                                     <p><?php echo $pro["producto"]; ?></p>
                                     <p><?php echo $pro["vig"]; ?></p>
@@ -44,16 +45,17 @@
                                     <p><?php echo $pro["edad"]; ?></p>
                                 </div>
                                 <div id="video">
-                                    <a href="carrito.php?id=<?php echo $pro['id']; ?>&action=add">Comprar</a>
-                                    <button onclick="add2(<?php echo $pro['id'];?>,'add');" class="btn success">Comprar</button>
-                                    <p><?php echo $pro["video"]; ?></p>
+                                    <p style="text-align:left;"><?php echo $pro["video"]; ?></p>
+                                    <!--a href="carrito.php?id=<?php echo $pro['id']; ?>&action=add">Comprar</a-->
+                                    <button onclick="add2(<?php echo $pro['id'];?>,'add');" class="btn">Comprar</button>
                                 </div>
                           <?php endforeach; ?>
-                    </div>
+                    </div><br><br>
               </div>
+              <br><br>
                  <!--********************contenedor****************************************-->
 
-              <footer id="footer">pie de pagina</footer>
+              <footer id="footer">@HMAVG 2019 Seguridad De APlicaciones</footer>
             </div>
       </body>
 </html>

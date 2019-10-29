@@ -38,11 +38,11 @@
 
 
   #video{
-  display: block;
-  height: 320px;
+  display: inline-grid;
+  height: 380px;
   margin:0 auto;
-  margin-top: 230px;
-  width: 420px;
+  margin-top: 20px;
+  width: 920px;
 
   }
 

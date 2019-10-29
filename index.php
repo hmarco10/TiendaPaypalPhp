@@ -8,7 +8,8 @@
 
 <html>
    <head>
-		<title>..::Mi carrito::..</title>
+
+		<title>Mi TiendaOnline</title>
        <link rel="stylesheet" type="text/css" href="css/estilos.css">
    </head>
          <body>
@@ -16,7 +17,7 @@
             <div id="header">
                 <?php require_once("header.php") ?>
                <div id="logo">
-                  <a class="brand" href="index.php">Carro de compras</a>
+                  <a class="brand" href="index.php">Tienda en Linea Video Juegos</a>
                </div>
             </div>
           </div>
@@ -28,17 +29,17 @@
                     ?>
                       <div class="fotos">
                            <h3><?php echo $pro['producto']; ?></h3>
-            						   <img src="fotos/<?php echo $pro['name'].".jpg"; ?>">
+            						   <img id="imagen" src="fotos/<?php echo $pro['name'].".jpg"; ?>">
                            <p><?php echo $pro["vig"]; ?></p>
                            <p><?php echo $pro["precio"]; ?></p>
-                           <a class="btn" href="pro.php?id=<?php echo $pro['id']; ?>">detalle</a>
+                           <a class="btn" href="pro.php?id=<?php echo $pro['id']; ?>">Agregar al Carrito</a>
                       </div>
 				          	 <?php
                           endforeach
                     ?>
                 </div>
                   <!--********************contenedor****************************************-->
-                <footer id="footer">pie de pagina</footer>
+                <footer id="footer">@HMAVG 2019 Seguridad De Aplicaciones</footer>
               </div>
-    </body>
+     </body>
 </html>
